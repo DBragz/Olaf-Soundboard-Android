@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="frozen_blue">#00BFFF</color>
+    <color name="white">#FFFFFF</color>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Olaf Soundboard</string>
+    <string name="title1">Olaf</string>
+    <string name="title2">Soundboard</string>
+
+
+</resources>

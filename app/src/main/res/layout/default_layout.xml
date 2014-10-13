@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/frozen_blue">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/olaf_background"
+        android:alpha=".65"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30px">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/title1"
+            android:id="@+id/first_title"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="@color/white"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/title2"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginBottom="20px"
+            android:textColor="@color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_column="1"
+                    android:layout_row="1"
+                    android:id="@+id/Yellow"
+                    android:onClick="playSound"
+                    android:text="Yellow and snow"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/white"
+                    android:alpha="0.90"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_column="1"
+                    android:layout_row="1"
+                    android:id="@+id/Amiright"
+                    android:onClick="playSound"
+                    android:text="Am I right?"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/white"
+                    android:alpha="0.90"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_column="1"
+                    android:layout_row="1"
+                    android:id="@+id/Whatimlooking"
+                    android:onClick="playSound"
+                    android:text="What am I looking at?"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/white"
+                    android:alpha="0.90"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_column="1"
+                    android:layout_row="1"
+                    android:id="@+id/Lifeupsidedown"
+                    android:onClick="playSound"
+                    android:text="Life was turned upside down"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/white"
+                    android:alpha="0.90"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_column="1"
+                    android:layout_row="1"
+                    android:id="@+id/Unicorn"
+                    android:onClick="playSound"
+                    android:text="Unicorn"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/white"
+                    android:alpha="0.90"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_column="1"
+                    android:layout_row="1"
+                    android:id="@+id/Andyouare"
+                    android:onClick="playSound"
+                    android:text="And you are?"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/white"
+                    android:alpha="0.90"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_column="1"
+                    android:layout_row="1"
+                    android:id="@+id/Ilikeyoutoo"
+                    android:onClick="playSound"
+                    android:text="I like you too"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/white"
+                    android:alpha="0.90"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_column="1"
+                    android:layout_row="1"
+                    android:id="@+id/Yeahwhy"
+                    android:onClick="playSound"
+                    android:text="Ya why?"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/white"
+                    android:alpha="0.90"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_column="1"
+                    android:layout_row="1"
+                    android:id="@+id/Stopitsven"
+                    android:onClick="playSound"
+                    android:text="Stop it sven"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/white"
+                    android:alpha="0.90"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_column="1"
+                    android:layout_row="1"
+                    android:id="@+id/Ideaofsummer"
+                    android:onClick="playSound"
+                    android:text="Idea of summer"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/white"
+                    android:alpha="0.90"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_column="1"
+                    android:layout_row="1"
+                    android:id="@+id/Bringbacksummer"
+                    android:onClick="playSound"
+                    android:text="Bring back Summer"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/white"
+                    android:alpha="0.90"
+                    />
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_column="1"
+                    android:layout_row="1"
+                    android:id="@+id/Impaled"
+                    android:onClick="playSound"
+                    android:text="I've been impaled"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/white"
+                    android:alpha="0.90"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_column="1"
+                    android:layout_row="1"
+                    android:id="@+id/Knock"
+                    android:onClick="playSound"
+                    android:text="Knock"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/white"
+                    android:alpha="0.90"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_column="1"
+                    android:layout_row="1"
+                    android:id="@+id/Headsup"
+                    android:onClick="playSound"
+                    android:text="Heads up"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/white"
+                    android:alpha="0.90"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_column="1"
+                    android:layout_row="1"
+                    android:id="@+id/Watchout"
+                    android:onClick="playSound"
+                    android:text="Watch out for my butt"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/white"
+                    android:alpha="0.90"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_column="1"
+                    android:layout_row="1"
+                    android:id="@+id/Marshmallow"
+                    android:onClick="playSound"
+                    android:text="Totally lost marshmallow"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/white"
+                    android:alpha="0.90"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_column="1"
+                    android:layout_row="1"
+                    android:id="@+id/Hanginthere"
+                    android:onClick="playSound"
+                    android:text="Hang in there guys!"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/white"
+                    android:alpha="0.90"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_column="1"
+                    android:layout_row="1"
+                    android:id="@+id/Legs"
+                    android:onClick="playSound"
+                    android:text="I can't feel my legs!"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/white"
+                    android:alpha="0.90"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_column="1"
+                    android:layout_row="1"
+                    android:id="@+id/Grabmybutt"
+                    android:onClick="playSound"
+                    android:text="Grab my butt"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/white"
+                    android:alpha="0.90"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_column="1"
+                    android:layout_row="1"
+                    android:id="@+id/Feelbetter"
+                    android:onClick="playSound"
+                    android:text="That feels better"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/white"
+                    android:alpha="0.90"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_column="1"
+                    android:layout_row="1"
+                    android:id="@+id/Skullorbones"
+                    android:onClick="playSound"
+                    android:text="I don't have a skull"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/white"
+                    android:alpha="0.90"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_column="1"
+                    android:layout_row="1"
+                    android:id="@+id/Hescrazy"
+                    android:onClick="playSound"
+                    android:text="He's crazy"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/white"
+                    android:alpha="0.90"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_column="1"
+                    android:layout_row="1"
+                    android:id="@+id/Youhesitated"
+                    android:onClick="playSound"
+                    android:text="You hesitated"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/white"
+                    android:alpha="0.90"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_column="1"
+                    android:layout_row="1"
+                    android:id="@+id/Melting"
+                    android:onClick="playSound"
+                    android:text="Some people are worth melting for"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/white"
+                    android:alpha="0.90"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_column="1"
+                    android:layout_row="1"
+                    android:id="@+id/Bestday"
+                    android:onClick="playSound"
+                    android:text="Best day"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/white"
+                    android:alpha="0.90"
+                    />
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</LinearLayout>
+
+<Button
+    android:layout_width="100px"
+    android:layout_height="100px"
+    android:id="@+id/Lukeybaby"
+    android:onClick="playSound"
+    android:gravity="right"
+    android:background="@color/frozen_blue"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"/>
+
+</RelativeLayout>
